@@ -1,4 +1,4 @@
-![](https://github.com/klukacsy/SET-detector.github.io/blob/master/app-icon.png =250x250)
+![image](https://github.com/klukacsy/SET-detector.github.io/blob/master/app-icon-small.png)
 
 ## Welcome to GitHub Pages
 
