@@ -15,8 +15,8 @@ The deck manufactured by [Set Enterprises, Inc.](https://en.wikipedia.org/wiki/S
 - filled, empty or striped for the fill property
 - 1, 2 and 3 for the number of shapes
 
-![Image](https://github.com/klukacsy/SET-detector.github.io/blob/master/SET-Enterprises-deck.png)
-![Image](https://github.com/klukacsy/SET-detector.github.io/blob/master/SET-Enterprises-cards.png)
+![Image](https://github.com/klukacsy/SET-detector.github.io/blob/gh-pages/SET-Enterprises-deck.png)
+![Image](https://github.com/klukacsy/SET-detector.github.io/blob/gh-pages/SET-Enterprises-cards.png)
 
 ### TBD
 
@@ -26,7 +26,7 @@ The deck manufactured by [Set Enterprises, Inc.](https://en.wikipedia.org/wiki/S
 - filled, empty or partially filled for the fill property
 - 1, 2 and 3 for the number of shapes
 
-![Image](https://github.com/klukacsy/SET-detector.github.io/blob/master/second-deck.png)
+![Image](https://github.com/klukacsy/SET-detector.github.io/blob/gh-pages/second-deck.png)
 
 ### SET Detector
 
@@ -36,20 +36,20 @@ The application uses a machine learning model that was trained to detect the sha
 
 This application works in real time. Aim your device at a card deck and wait for it to detect the rectangle-shaped cards. Soon afte rthe cards are detected, the application processes each card individually on a background thread to detect its properties. Once the properties have been detected, they will be used to draw the detected card. You should see the detected card match the real card, though depending on the external conditions such as lighting or card imperfections (stains, folds, etc.) this may take longer to detect or it may be imprecise. 
 
-![Image](https://github.com/klukacsy/SET-detector.github.io/blob/master/Detection-real-time-deck2.png)
-![Image](https://github.com/klukacsy/SET-detector.github.io/blob/master/App-detected-cards.png)
+![Image](https://github.com/klukacsy/SET-detector.github.io/blob/gh-pages/Detection-real-time-deck2.png)
+![Image](https://github.com/klukacsy/SET-detector.github.io/blob/gh-pages/App-detected-cards.png)
 
 You have a white button available on your screen to take a screenshot of what has been detected. You can use this to stop the application from running real-time and just display the results at that point in time. Swipe down to go back to real-time detection, but be aware that this will also dismiss the screenshot.
 
-![Image](https://github.com/klukacsy/SET-detector.github.io/blob/master/App-detected-cards-deck1.png)
+![Image](https://github.com/klukacsy/SET-detector.github.io/blob/gh-pages/App-detected-cards-deck1.png)
 
 The app currently supports the two card decks described above.
 
-![Image](https://github.com/klukacsy/SET-detector.github.io/blob/master/supported-decks-detection.png)
+![Image](https://github.com/klukacsy/SET-detector.github.io/blob/gh-pages/supported-decks-detection.png)
 
 ### Demo
 
-[![Watch the demo](https://i.imgur.com/vKb2F1B.png)](https://github.com/klukacsy/SET-detector.github.io/blob/master/SetDetectorDemoFixedResized.mp4)
+[![Watch the demo](https://i.imgur.com/vKb2F1B.png)](https://github.com/klukacsy/SET-detector.github.io/blob/gh-pages/SetDetectorDemoFixedResized.mp4)
 
 
 ### Support
