@@ -49,7 +49,7 @@ The app currently supports the two card decks described above.
 
 ### Demo
 
-[![Watch the demo](./SetDetectorDemoFixedResized.mp4)
+[![Watch the video](./supported-decks-detection.png)](./SetDetectorDemoFixedResized.mp4)
 
 
 ### Support
