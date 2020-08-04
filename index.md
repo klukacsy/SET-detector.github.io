@@ -1,39 +1,50 @@
-![image](https://github.com/klukacsy/SET-detector.github.io/blob/master/app-icon-small.png)
+![Image](https://github.com/klukacsy/SET-detector.github.io/blob/master/app-icon-small.png)
 
-## Welcome to GitHub Pagesxxx
+## SET Card Game
 
-You can use the [editor on GitHub](https://github.com/klukacsy/SET-detector.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+SET is a card game played with a specialized card deck. Each card has 4 properties and each property can take on 3 values. As a result, the deck consists of 3^4 cards, i.e. 81 cards. The four properties are color, shape, fill and shape count. The values they take on can differ across card deck manufacturers.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+More on the SET card game and the rules can be found [here](https://en.wikipedia.org/wiki/Set_(card_game))
 
-### Markdown
+### SET Enterprises, Inc.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The deck manufactured by [Set Enterprises, Inc.](https://en.wikipedia.org/wiki/Set_Enterprises) features the following properties:
+- red, green and purple for the 3 values of the color property
+- diamond, oval and squiggle for the 3 values of the shape property
+- filled, empty or striped for the fill property
+- 1, 2 and 3 for the number of shapes
 
-```markdown
-Syntax highlighted code block
+![Image](https://github.com/klukacsy/SET-detector.github.io/blob/master/app-icon-small.png)
 
-# Header 1
-## Header 2
-### Header 3
+### TBD
 
-- Bulleted
-- List
+The deck manufactured by [Set Enterprises, Inc.](https://en.wikipedia.org/wiki/Set_Enterprises) features the following properties:
+- red, green and purple for the 3 values of the color property
+- rectangle, oval and squiggle for the 3 values of the shape property
+- filled, empty or partially filled for the fill property
+- 1, 2 and 3 for the number of shapes
 
-1. Numbered
-2. List
+![Image](https://github.com/klukacsy/SET-detector.github.io/blob/master/app-icon-small.png)
 
-**Bold** and _Italic_ and `Code` text
+### SET Detector
 
-[Link](url) and ![Image](src)
-```
+SET Detector is an iOS application designed to detect three cards that form a set among a collection of multiple SET cards as manufactured by Set Enterprises, Inc. or TBD.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The application uses a machine learning model that was trained to detect the shapes, the fill and the number of shapes on the cards. Their color is determined using image processing.
 
-### Jekyll Themes
+This application works in real time. Aim your device at a card deck and wait for it to detect the rectangle-shaped cards. Soon afte rthe cards are detected, the application processes each card individually on a background thread to detect its properties. Once the properties have been detected, they will be used to draw the detected card. You should see the detected card match the real card, though depending on the external conditions such as lighting or card imperfections (stains, folds, etc.) this may take longer to detect or it may be imprecise. 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/klukacsy/SET-detector.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+You have a white button available on your screen to take a screenshot of what has been detected. You can use this to stop the application from running real-time and just display the results at that point in time. Swipe down to go back to real-time detection, but be aware that this will also dismiss the screenshot.
 
-### Support or Contact
+![Image](https://github.com/klukacsy/SET-detector.github.io/blob/master/app-icon-small.png)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+### Support
+
+There is no dedicated channel for raising issues. We encourage you to write feedback directly in App Store. In particular, we would like to hear about your experience with the detection feature of the app. It was trained on a brand-new deck and tested in various environmental settings but hearing from you would be very valuable for us to know how this features performs in real world.
+
+The screenshot feature is by design non-persistent. We do not store the screenshot in your photo album nor do we persist it in the cloud. Once you dismiss it you will need to take a new screenshot if you need one. We would love to hear your feedback on this design and persisting the screenshot would be preferrable.
+
+As any app this app may crash. We are actively monitoring analytics provided by Apple Developer framework and rigorously testing the app to reduce the occurence of app crashes.
+
+For any other issues, feedback or requests please use the App Store comments section.
