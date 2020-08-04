@@ -31,11 +31,11 @@ The deck manufactured by unknown manufacturer features the following properties:
 
 ### SET Detector
 
-SET Detector is an iOS application designed to detect three cards that form a set among a collection of multiple SET cards as manufactured by Set Enterprises, Inc. or TBD.
+SET Detector is an iOS application designed to detect three cards that form a set among a collection of multiple SET cards as manufactured by Set Enterprises, Inc. or the unknown manufacturer depicted above.
 
 The application uses a machine learning model that was trained to detect the shapes, the fill and the number of shapes on the cards. Their color is determined using image processing.
 
-This application works in real time. Aim your device at a card deck and wait for it to detect the rectangle-shaped cards. Soon afte rthe cards are detected, the application processes each card individually on a background thread to detect its properties. Once the properties have been detected, they will be used to draw the detected card. You should see the detected card match the real card, though depending on the external conditions such as lighting or card imperfections (stains, folds, etc.) this may take longer to detect or it may be imprecise. 
+This application works in real time. Aim your device at a card deck and wait for it to detect the rectangle-shaped cards. Soon after the cards are detected, the application processes each card individually on a background thread to detect its properties. Once the properties have been detected, they will be used to draw the detected card in an augmented reality overlay. You should see the detected card match the real card, though depending on the external conditions such as lighting or card imperfections (stains, folds, etc.) this may take longer to detect or it may be imprecise. Once all properties have been identified on the cards an algorithm is executed to calculate if any of them form a set. There can be multiple sets of cards that form a set in any given group of cards. The application chooses only one and highlights it in yellow color.
 
 ![Image](./Detection-real-time-deck2.png)
 ![Image](./App-detected-cards.png)
@@ -55,10 +55,12 @@ The app currently supports the two card decks described above.
 
 ### Support
 
-There is no dedicated channel for raising issues. We encourage you to write feedback directly in App Store. In particular, we would like to hear about your experience with the detection feature of the app. It was trained on brand-new decks from the two manufactures as described above and tested in various environmental settings but hearing from you would be very valuable for us to know how this features performs in real world.
+For any time of feedback use `set <dot> detector <dot> feedback <at> gmail <dot> com` email address.
+
+We encourage you to write feedback about your experience with the detection feature of the app. It was trained on brand-new decks from the two manufactures as described above and tested in various environmental settings but hearing from you would be very valuable for us to know how this features performs in real world.
 
 The screenshot feature is by design non-persistent. We do not store the screenshot in your photo album nor do we persist it in the cloud. Once you dismiss it you will need to take a new screenshot if you need one. We would love to hear your feedback on this design and persisting the screenshot would be preferrable.
 
-As any app this app may crash. We are actively monitoring analytics provided by Apple Developer framework and rigorously testing the app to reduce the occurence of app crashes.
+The application calculates all the sets in the group of cards it detects but only highlights one. We would like to hear if you'd like to see them all highlighted.
 
-For any other issues, feedback or requests please use the App Store comments section.
+As any app this app may crash. We are actively monitoring analytics provided by Apple Developer framework and rigorously testing the app to reduce the occurence of app crashes.
