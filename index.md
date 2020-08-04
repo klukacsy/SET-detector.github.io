@@ -18,15 +18,16 @@ The deck manufactured by [Set Enterprises, Inc.](https://en.wikipedia.org/wiki/S
 ![Image](./SET-Enterprises-deck.png)
 ![Image](./SET-Enterprises-cards.png)
 
-### TBD
+### SET!
 
-The deck manufactured by [Set Enterprises, Inc.](https://en.wikipedia.org/wiki/Set_Enterprises) features the following properties:
+The deck manufactured by unknown manufacturer features the following properties:
 - red, green and purple for the 3 values of the color property
 - rectangle, oval and squiggle for the 3 values of the shape property
 - filled, empty or partially filled for the fill property
 - 1, 2 and 3 for the number of shapes
 
 ![Image](./second-deck.png)
+![Image](./deck2-cards.jpeg)
 
 ### SET Detector
 
