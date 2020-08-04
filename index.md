@@ -1,4 +1,4 @@
-![Image](https://github.com/klukacsy/SET-detector.github.io/blob/master/app-icon-small.png)
+![Image](./app-icon-small.png)
 
 ## SET Card Game
 
