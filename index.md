@@ -1,4 +1,4 @@
-![Image](./app-icon-small.png)
+![Image](./app-icon.png)
 
 ## SET Card Game
 
