@@ -1,3 +1,7 @@
+
+[![Image](./appStoreIcon.png)](https://apps.apple.com/us/app/set-detector/id1526017649?mt=8)
+
+
 ![Image](./app-icon.png)
 
 ## SET Card Game
@@ -73,3 +77,7 @@ The screenshot feature is by design non-persistent. We do not store the screensh
 The application calculates all the sets in the group of cards it detects but only highlights one. We would like to hear if you'd like to see them all highlighted.
 
 As any app this app may crash. We are actively monitoring analytics provided by Apple Developer framework and rigorously testing the app to reduce the occurence of app crashes.
+
+
+
+[![Image](./appStoreIcon.png)](https://apps.apple.com/us/app/set-detector/id1526017649?mt=8)
